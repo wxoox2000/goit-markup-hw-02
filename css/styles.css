@@ -73,8 +73,8 @@ body li {
   color: var(--hover-color);
 }
 
-.contacts-nav .nav-item:hover,
-.contacts-nav .nav-item:focus {
+.list .contacts-item:hover,
+.list .contacts-item:focus {
   color: var(--hover-color);
 }
 
