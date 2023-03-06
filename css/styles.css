@@ -1,7 +1,6 @@
 /* Global */
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: var(--main-white-color);
   color: var(--p-text);
@@ -48,7 +47,6 @@ body li {
 }
 
 .nav-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -63,7 +61,7 @@ body li {
 .list .contacts-item {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--p-text);
 }
@@ -90,7 +88,7 @@ body li {
 
 .bottom-text {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
@@ -98,7 +96,6 @@ body li {
 /* index.html */
 
 .section-header {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -109,7 +106,6 @@ body li {
 }
 
 .content-header {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,7 +120,6 @@ body li {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -138,13 +133,7 @@ body li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
   color: var(--main-white-color);
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -159,15 +148,11 @@ body li {
 
 /* Our principles */
 
-
-
 /* Team */
 
 .team {
   background-color: #f4f4fd;
 }
-
-
 
 /* Portfolio.html */
 
@@ -177,14 +162,9 @@ body li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  width: 126px;
-  height: 48px;
   background-color: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -194,9 +174,10 @@ body li {
 .filtering:hover,
 .filtering:focus {
   color: var(--main-white-color);
-  background: #404bbf;
+  background-color: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-color: #404bbf;
 }
 
 /* Portfolio */
